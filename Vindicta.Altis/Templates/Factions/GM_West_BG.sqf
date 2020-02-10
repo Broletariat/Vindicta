@@ -3,8 +3,18 @@ custom West German Police/Border Guard
 */
 
 _array = [];
-
 _array set [T_SIZE-1, nil];									//Make an array having the size equal to the number of categories first
+
+// Name, description, faction, addons, etc
+_array set [T_NAME, "tGM_West_BG"];
+_array set [T_DESCRIPTION, "Police and Border Guard units from West Germany circa 1980s"];
+_array set [T_DISPLAY_NAME, "West Europe (1980s)"];
+_array set [T_FACTION, T_FACTION_Police];
+_array set [T_REQUIRED_ADDONS, [
+								"gm_core",	// Global Mobilzation
+								"gm_characters_dk_characters",		
+								"gm_characters_ge_characters",
+								"gm_core_weapons"]];
 
 //==== Infantry ====
 _inf = [];
@@ -74,6 +84,5 @@ _array set [T_VEH, _veh];
 _array set [T_DRONE, _drone];
 _array set [T_CARGO, _cargo];
 _array set [T_GROUP, _group];
-_array set [T_NAME, "tGM_West_BG"];
 
 _array

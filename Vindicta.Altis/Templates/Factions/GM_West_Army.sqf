@@ -6,6 +6,18 @@ _array = [];
 
 _array set [T_SIZE-1, nil];									//Make an array having the size equal to the number of categories first
 
+// Name, description, faction, addons, etc
+_array set [T_NAME, "tGM_West_Army"];
+_array set [T_DESCRIPTION, "Military Units from 1980s West Germany and Denmark. Requires Global Mobilzation!"];
+_array set [T_DISPLAY_NAME, "West Europe (1980s)"];
+_array set [T_FACTION, T_FACTION_Military];
+_array set [T_REQUIRED_ADDONS, [
+								"gm_core",					// Global Mobilzation
+								"gm_characters_dk_characters",		
+								"gm_characters_ge_characters",
+								"gm_core_weapons"]];
+
+
 //==== Infantry ====
 _inf = +(tDefault select T_INF);
 _inf set [T_INF_SIZE-1, nil]; 								//Make an array full of nil
@@ -21,7 +33,7 @@ _inf set [T_INF_sniper, ["GM_West_marksman"]];
 _inf set [T_INF_spotter, ["GM_West_rifleman"]];
 _inf set [T_INF_exp, ["GM_West_explosives"]];
 _inf set [T_INF_ammo, ["GM_West_MG_2", "GM_West_AT_2"]];
-_inf set [T_INF_LAT, ["GM_West_AT"]];
+_inf set [T_INF_LAT, ["GM_West_LAT"]];
 _inf set [T_INF_AT, ["GM_West_AT"]];
 _inf set [T_INF_AA, ["GM_West_HAT"]];
 _inf set [T_INF_LMG, ["GM_West_MG"]];
@@ -32,8 +44,8 @@ _inf set [T_INF_crew, ["GM_West_crew"]];
 _inf set [T_INF_crew_heli, ["GM_West_crew"]];
 _inf set [T_INF_pilot, ["GM_West_crew"]];
 _inf set [T_INF_pilot_heli, ["GM_West_crew"]];
-//_inf set [T_INF_survivor, ["GM_West_rifleman"]];
-//_inf set [T_INF_unarmed, ["GM_West_rifleman"]];
+//_inf set [T_INF_survivor, [""]];
+//_inf set [T_INF_unarmed, [""]];
 
 // Recon
 _inf set [T_INF_recon_TL, ["GM_West_recon_TL"]];
@@ -136,7 +148,5 @@ _array set [T_VEH, _veh];
 _array set [T_DRONE, _drone];
 _array set [T_CARGO, _cargo];
 _array set [T_GROUP, _group];
-_array set [T_NAME, "tGM_West"];
-
 
 _array // End template
