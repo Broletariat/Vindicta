@@ -18,3 +18,7 @@ call compile preprocessFileLineNumbers "Templates\Loadouts\RHS_LDF\LDF_Recon\ini
 call compile preprocessFileLineNumbers "Templates\Loadouts\RHS_LDF_NATO\LDF_NATO\init.sqf";
 call compile preprocessFileLineNumbers "Templates\Loadouts\RHS_LDF_NATO\LDF_NATO_Police\init.sqf";
 call compile preprocessFileLineNumbers "Templates\Loadouts\RHS_LDF_NATO\LDF_NATO_Recon\init.sqf";
+//GM West
+call compile preprocessFileLineNumbers "Templates\Loadouts\GM_West\Police\init.sqf";
+call compile preprocessFileLineNumbers "Templates\Loadouts\GM_West\Army\init.sqf";
+call compile preprocessFileLineNumbers "Templates\Loadouts\GM_West\ReconSF\init.sqf";
