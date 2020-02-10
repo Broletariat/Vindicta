@@ -21,7 +21,7 @@ _inf set [T_INF_sniper, ["GM_West_marksman"]];
 _inf set [T_INF_spotter, ["GM_West_rifleman"]];
 _inf set [T_INF_exp, ["GM_West_explosives"]];
 _inf set [T_INF_ammo, ["GM_West_MG_2", "GM_West_AT_2"]];
-_inf set [T_INF_LAT, ["GM_West_LAT"]];
+_inf set [T_INF_LAT, ["GM_West_AT"]];
 _inf set [T_INF_AT, ["GM_West_AT"]];
 _inf set [T_INF_AA, ["GM_West_HAT"]];
 _inf set [T_INF_LMG, ["GM_West_MG"]];
