@@ -13,7 +13,7 @@ this addHeadgear "gm_ge_pol_headgear_cap_80_wht";
 this forceAddUniform "gm_ge_pol_uniform_blouse_80_blk";
 
 this addWeapon "gm_mp2a1_blk";
-this addPrimaryWeaponItem ""gm_32Rnd_9x19mm_B_DM51_mp2_blk"";
+this addPrimaryWeaponItem "gm_32Rnd_9x19mm_B_DM51_mp2_blk";
 this addWeapon "gm_p1_blk";
 this addHandgunItem "gm_8rnd_9x19mm_p1_blk";
 
