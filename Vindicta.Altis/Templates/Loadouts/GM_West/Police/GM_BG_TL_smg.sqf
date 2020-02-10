@@ -20,7 +20,7 @@ this addHandgunItem "gm_8rnd_9x19mm_p1_blk";
 this addItemToUniform "FirstAidKit";
 for "_i" from 1 to 2 do {this addItemToUniform "gm_8rnd_9x19mm_p1_blk";};
 this addItemToUniform "gm_handgrenade_conc_dm51a1";
-this addItemToUniform ""gm_32Rnd_9x19mm_B_DM51_mp2_blk"";
+this addItemToUniform "gm_32Rnd_9x19mm_B_DM51_mp2_blk";
 this addItemToVest "gm_8rnd_9x19mm_p1_blk";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";

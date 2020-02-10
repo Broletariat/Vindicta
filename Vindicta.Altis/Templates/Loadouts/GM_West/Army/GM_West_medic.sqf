@@ -21,7 +21,7 @@ this addPrimaryWeaponItem "gm_20Rnd_762x51mm_B_DM41_g3_blk";
 for "_i" from 1 to 7 do {this addItemToUniform "FirstAidKit";};
 for "_i" from 1 to 4 do {this addItemToVest "gm_20Rnd_762x51mm_B_DM41_g3_blk";};
 for "_i" from 1 to 2 do {this addItemToVest "gm_handgrenade_conc_dm51a1";};
-for "_i" from 1 to 2 do {this addItemToVest ""gm_smokeshell_wht_dm25;};
+for "_i" from 1 to 2 do {this addItemToVest "gm_smokeshell_wht_dm25";};
 this addItemToBackpack "Medikit";
 for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
 this linkItem "ItemWatch";
